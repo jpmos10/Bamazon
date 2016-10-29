@@ -1,0 +1,12 @@
+CREATE DATABASE Bamazon;
+
+USE Bamazon;
+
+CREATE TABLE 'Products' (
+	ItemID INT NOT NULL AUTO_INCREMENT,
+	ProductName VARCHAR(100) NOT NULL,
+	DepartmentName  VARCHAR(100) NOT NULL,
+	Price DECIMAL(10) NOT NULL,
+	StockQuantity INTEGER(10),
+	PRIMARY KEY (id)
+);
